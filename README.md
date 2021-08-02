@@ -1,5 +1,5 @@
 <h1 align="center"> 
-I've joined the #100DaysOfCode Challenge
+I've joined the #100DaysOfCoding Challenge
 </h1>
 <h5 align="center">
 Starting from : August 2, 2021
