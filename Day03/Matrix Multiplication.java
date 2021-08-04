@@ -26,7 +26,7 @@ public static void main(String[] args) throws Exception {
     }
     
     if(c1 != r2){
-        System.out.print("Invalid Input");
+        System.out.print("Invalid input");
         return;
     }
     
