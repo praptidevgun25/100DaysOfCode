@@ -8,3 +8,7 @@ Starting from : August 2, 2021
 <p align="center">
 I pledge to complete this 100 days of coding challenge.
 </p>
+
+<p align="center">
+  <img src="100daysofcode.jfif" />
+</p>
