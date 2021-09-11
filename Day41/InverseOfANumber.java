@@ -4,17 +4,24 @@ public class Main {
 
   public static void main(String[] args) {
     Scanner scn = new Scanner(System.in);
-    int n = scn.nextInt();
-    int placeValue = 1;
-    int inv = 0;
+    int number = scn.nextInt(); 
+    int placeValue = 1; 
+    int inverse = 0;
     
-    while(n > 0){
-        int quotient = n / 10;
-        int remainder = n % 10;
-        n = quotient;
-        inv = inv + placeValue * (int)Math.pow(10, remainder - 1);
-        placeValue++;
+    // inverse of 426135 -> 416253
+    // remainder at place value becomes placeValue at remainder -> placeValue * pow(10, r-1)
+
+    while (number > 0) {
+        
+      int quotient = number / 10; 
+      int remainder = number % 10;
+      number = quotient;
+      inverse = inverse + placeValue * (int)Math.pow(10, remainder - 1);
+      placeValue++;
+      
     }
-    System.out.print(inv);
+    
+    System.out.print(inverse);
+    
   }
 }
