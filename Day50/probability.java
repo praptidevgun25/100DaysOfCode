@@ -1,3 +1,8 @@
+// Problem Description -
+// Given an urn consisting of 8 balls: 4 red, 2 blue and 2 green. 
+// We have to calculate the probability of drawing out n number of balls from the urn, out of which exactly x balls should be red.
+
+// code - 
 import java.util.*;
 
 public class Main {
