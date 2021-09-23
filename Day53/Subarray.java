@@ -6,7 +6,7 @@ public class Main {
   public static void main(String[] args) throws Exception {
 
     /* 
-        subsets of 10 20 30 will be
+        subarray of 10 20 30 will be
         10
         10 20
         10 20  30
