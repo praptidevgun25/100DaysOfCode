@@ -16,10 +16,10 @@ public class Main {
 
     int x = scn.nextInt();
 
-    /* top left corner */
+    /* top right corner */
     int i = 0;
     int j = arr[0].length - 1;
-    /* top left corner */
+    /* top right corner */
 
     while (i < arr.length && j >= 0) {
       if (x > arr[i][j]) {
